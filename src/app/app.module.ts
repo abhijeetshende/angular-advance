@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { BaseViewComponent } from './base-view/base-view.component';
 import { InputComponent } from './input/input.component';
 import { UsersComponent } from './input/users/users.component';
+import { OutputListenerComponent } from './input/output-listener/output-listener.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BaseViewComponent,
     InputComponent,
-    UsersComponent
+    UsersComponent,
+    OutputListenerComponent
   ],
   imports: [
     BrowserModule,
