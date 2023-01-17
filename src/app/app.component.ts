@@ -12,6 +12,7 @@ interface sidebarLinks{
 export class AppComponent {
   title = 'angular-learning-advance';
   tutorialLinks: sidebarLinks[] = [
-    {'linkname':'Input','routerLink':'input'}
+    {'linkname':'Input Output','routerLink':'input'},
+    {'linkname':'Localreference','routerLink':'localreference'}
   ];
 }

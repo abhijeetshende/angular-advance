@@ -8,6 +8,7 @@ import { BaseViewComponent } from './base-view/base-view.component';
 import { InputComponent } from './input/input.component';
 import { UsersComponent } from './input/users/users.component';
 import { OutputListenerComponent } from './input/output-listener/output-listener.component';
+import { LocalreferenceComponent } from './localreference/localreference.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { OutputListenerComponent } from './input/output-listener/output-listener
     BaseViewComponent,
     InputComponent,
     UsersComponent,
-    OutputListenerComponent
+    OutputListenerComponent,
+    LocalreferenceComponent
   ],
   imports: [
     BrowserModule,
