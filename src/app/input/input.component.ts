@@ -11,4 +11,8 @@ export class InputComponent {
   addUserToChild(str:string){
     this.users.push(str);
   }
+  listenOutputEvent(e:any){
+    console.log('receiving event ',e);
+    
+  }
 }

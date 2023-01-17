@@ -1,5 +1,9 @@
 <ul>
-  <li *ngFor="let user of users">
+  <li *ngFor="let user of users" class="bg bg-grey">
     {{ user }}
   </li>
 </ul>
+
+<button (click)="generatEvent()"> Generate </button>
+
+<app-output-listener (outputUser)="listenOutputEvent($event)"></app-output-listener>
