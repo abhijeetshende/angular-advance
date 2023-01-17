@@ -15,5 +15,6 @@ export class AppComponent {
     {'linkname':'Input Output','routerLink':'input'},
     {'linkname':'Localreference','routerLink':'localreference'},
     {'linkname':'ViewChild','routerLink':'viewchild'},
+    {'linkname':'ngContent','routerLink':'ngcontent'},
   ];
 }

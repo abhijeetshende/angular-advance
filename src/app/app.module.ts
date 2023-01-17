@@ -10,6 +10,8 @@ import { UsersComponent } from './input/users/users.component';
 import { OutputListenerComponent } from './input/output-listener/output-listener.component';
 import { LocalreferenceComponent } from './localreference/localreference.component';
 import { ViewchildComponent } from './viewchild/viewchild.component';
+import { NgcontentComponent } from './ngcontent/ngcontent.component';
+import { NgcontentChildComponent } from './ngcontent/ngcontent-child/ngcontent-child.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ViewchildComponent } from './viewchild/viewchild.component';
     UsersComponent,
     OutputListenerComponent,
     LocalreferenceComponent,
-    ViewchildComponent
+    ViewchildComponent,
+    NgcontentComponent,
+    NgcontentChildComponent
   ],
   imports: [
     BrowserModule,
