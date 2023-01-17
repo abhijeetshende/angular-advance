@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BaseViewComponent } from './base-view/base-view.component';
 import { InputComponent } from './input/input.component';
 import { LocalreferenceComponent } from './localreference/localreference.component';
+import { ViewchildComponent } from './viewchild/viewchild.component';
 
 const routes: Routes = [
   {
@@ -10,6 +11,7 @@ const routes: Routes = [
     component: InputComponent,
   },
   { path: 'localreference', component: LocalreferenceComponent },
+  { path: 'viewchild', component: ViewchildComponent },
 ];
 
 @NgModule({

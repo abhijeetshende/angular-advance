@@ -9,6 +9,7 @@ import { InputComponent } from './input/input.component';
 import { UsersComponent } from './input/users/users.component';
 import { OutputListenerComponent } from './input/output-listener/output-listener.component';
 import { LocalreferenceComponent } from './localreference/localreference.component';
+import { ViewchildComponent } from './viewchild/viewchild.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LocalreferenceComponent } from './localreference/localreference.compone
     InputComponent,
     UsersComponent,
     OutputListenerComponent,
-    LocalreferenceComponent
+    LocalreferenceComponent,
+    ViewchildComponent
   ],
   imports: [
     BrowserModule,
