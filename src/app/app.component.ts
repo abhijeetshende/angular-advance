@@ -17,5 +17,6 @@ export class AppComponent {
     {'linkname':'ViewChild','routerLink':'viewchild'},
     {'linkname':'ngContent','routerLink':'ngcontent'},
     {'linkname':'LifecycleHooks','routerLink':'lifecyclehooks'},
+    {'linkname':'ContentChild','routerLink':'contentChild'},
   ];
 }

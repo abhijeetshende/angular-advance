@@ -14,6 +14,8 @@ import { NgcontentComponent } from './ngcontent/ngcontent.component';
 import { NgcontentChildComponent } from './ngcontent/ngcontent-child/ngcontent-child.component';
 import { LifecyclehooksComponent } from './lifecyclehooks/lifecyclehooks.component';
 import { ChildComponent } from './lifecyclehooks/child/child.component';
+import { ContentchildComponent } from './contentchild/contentchild.component';
+import { ContentchildviewComponent } from './contentchild/contentchildview/contentchildview.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { ChildComponent } from './lifecyclehooks/child/child.component';
     NgcontentComponent,
     NgcontentChildComponent,
     LifecyclehooksComponent,
-    ChildComponent
+    ChildComponent,
+    ContentchildComponent,
+    ContentchildviewComponent
   ],
   imports: [
     BrowserModule,
