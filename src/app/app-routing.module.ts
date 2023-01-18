@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BaseViewComponent } from './base-view/base-view.component';
 import { ContentchildComponent } from './contentchild/contentchild.component';
 import { DirectiveViewComponent } from './directive-view/directive-view.component';
+import { DirectiveinputComponent } from './directiveinput/directiveinput.component';
 import { HostbindingComponent } from './hostbinding/hostbinding.component';
 import { HostlistenerComponent } from './hostlistener/hostlistener.component';
 import { InputComponent } from './input/input.component';
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'directive', component: DirectiveViewComponent },
   { path: 'hostlistener', component: HostlistenerComponent },
   { path: 'hostBinding', component: HostbindingComponent },
+  {path:'directiveinput',component:DirectiveinputComponent}
 ];
 
 @NgModule({

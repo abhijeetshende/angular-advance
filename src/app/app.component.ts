@@ -21,5 +21,6 @@ export class AppComponent {
     {'linkname':'Directive','routerLink':'directive'},
     {'linkname':'hostListener','routerLink':'hostlistener'},
     {'linkname':'hostBinding','routerLink':'hostBinding'},
+    {'linkname':'InputToDirective','routerLink':'directiveinput'},
   ];
 }
