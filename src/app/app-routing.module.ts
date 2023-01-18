@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BaseViewComponent } from './base-view/base-view.component';
 import { ContentchildComponent } from './contentchild/contentchild.component';
 import { DirectiveViewComponent } from './directive-view/directive-view.component';
+import { HostlistenerComponent } from './hostlistener/hostlistener.component';
 import { InputComponent } from './input/input.component';
 import { LifecyclehooksComponent } from './lifecyclehooks/lifecyclehooks.component';
 import { LocalreferenceComponent } from './localreference/localreference.component';
@@ -19,7 +20,8 @@ const routes: Routes = [
   { path: 'ngcontent', component: NgcontentComponent },
   { path: 'lifecyclehooks', component: LifecyclehooksComponent },
   { path: 'contentChild', component: ContentchildComponent },
-  {path:'directive','component':DirectiveViewComponent}
+  { path: 'directive', component: DirectiveViewComponent },
+  { path: 'hostlistener', component: HostlistenerComponent },
 ];
 
 @NgModule({

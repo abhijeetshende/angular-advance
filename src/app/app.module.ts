@@ -21,6 +21,8 @@ import { DirectiveViewComponent } from './directive-view/directive-view.componen
 import { Highlight2Directive } from './directives/highlight2.directive';
 import { Highlight3Directive } from './directives/highlight3.directive';
 import { RendererDirective } from './directives/renderer.directive';
+import { HostlistenerComponent } from './hostlistener/hostlistener.component';
+import { HostlistenerDirective } from './hostlistener/hostlistener.directive';
 
 
 @NgModule({
@@ -43,6 +45,8 @@ import { RendererDirective } from './directives/renderer.directive';
     Highlight2Directive,
     Highlight3Directive,
     RendererDirective,
+    HostlistenerComponent,
+    HostlistenerDirective,
     
   ],
   imports: [

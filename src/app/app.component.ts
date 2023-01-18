@@ -19,5 +19,6 @@ export class AppComponent {
     {'linkname':'LifecycleHooks','routerLink':'lifecyclehooks'},
     {'linkname':'ContentChild','routerLink':'contentChild'},
     {'linkname':'Directive','routerLink':'directive'},
+    {'linkname':'hostListener','routerLink':'hostlistener'},
   ];
 }
