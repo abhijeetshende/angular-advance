@@ -23,6 +23,8 @@ import { Highlight3Directive } from './directives/highlight3.directive';
 import { RendererDirective } from './directives/renderer.directive';
 import { HostlistenerComponent } from './hostlistener/hostlistener.component';
 import { HostlistenerDirective } from './hostlistener/hostlistener.directive';
+import { HostbindingComponent } from './hostbinding/hostbinding.component';
+import { HostbindingDirective } from './hostbinding/hostbinding.directive';
 
 
 @NgModule({
@@ -47,6 +49,8 @@ import { HostlistenerDirective } from './hostlistener/hostlistener.directive';
     RendererDirective,
     HostlistenerComponent,
     HostlistenerDirective,
+    HostbindingComponent,
+    HostbindingDirective,
     
   ],
   imports: [

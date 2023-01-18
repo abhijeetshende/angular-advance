@@ -20,5 +20,6 @@ export class AppComponent {
     {'linkname':'ContentChild','routerLink':'contentChild'},
     {'linkname':'Directive','routerLink':'directive'},
     {'linkname':'hostListener','routerLink':'hostlistener'},
+    {'linkname':'hostBinding','routerLink':'hostBinding'},
   ];
 }
