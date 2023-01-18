@@ -10,6 +10,7 @@ import { InputComponent } from './input/input.component';
 import { LifecyclehooksComponent } from './lifecyclehooks/lifecyclehooks.component';
 import { LocalreferenceComponent } from './localreference/localreference.component';
 import { NgcontentComponent } from './ngcontent/ngcontent.component';
+import { StructuralDirectiveComponent } from './structural-directive/structural-directive.component';
 import { ViewchildComponent } from './viewchild/viewchild.component';
 
 const routes: Routes = [
@@ -25,7 +26,8 @@ const routes: Routes = [
   { path: 'directive', component: DirectiveViewComponent },
   { path: 'hostlistener', component: HostlistenerComponent },
   { path: 'hostBinding', component: HostbindingComponent },
-  {path:'directiveinput',component:DirectiveinputComponent}
+  { path: 'directiveinput', component: DirectiveinputComponent },
+  { path: 'structralDirective', component: StructuralDirectiveComponent },
 ];
 
 @NgModule({

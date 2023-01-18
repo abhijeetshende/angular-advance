@@ -22,5 +22,7 @@ export class AppComponent {
     {'linkname':'hostListener','routerLink':'hostlistener'},
     {'linkname':'hostBinding','routerLink':'hostBinding'},
     {'linkname':'InputToDirective','routerLink':'directiveinput'},
+    {'linkname':'structralDirective','routerLink':'structralDirective'},
+    
   ];
 }

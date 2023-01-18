@@ -27,6 +27,8 @@ import { HostbindingComponent } from './hostbinding/hostbinding.component';
 import { HostbindingDirective } from './hostbinding/hostbinding.directive';
 import { DirectiveinputComponent } from './directiveinput/directiveinput.component';
 import { InputdirectiveDirective } from './directiveinput/inputdirective.directive';
+import { StructuralDirectiveComponent } from './structural-directive/structural-directive.component';
+import { StructraldirectiveDirective } from './structural-directive/structraldirective.directive';
 
 
 @NgModule({
@@ -55,6 +57,8 @@ import { InputdirectiveDirective } from './directiveinput/inputdirective.directi
     HostbindingDirective,
     DirectiveinputComponent,
     InputdirectiveDirective,
+    StructuralDirectiveComponent,
+    StructraldirectiveDirective,
     
   ],
   imports: [
