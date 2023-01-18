@@ -19,7 +19,9 @@ import { ContentchildviewComponent } from './contentchild/contentchildview/conte
 import { Highlight1Directive } from './directives/highlight1.directive';
 import { DirectiveViewComponent } from './directive-view/directive-view.component';
 import { Highlight2Directive } from './directives/highlight2.directive';
-import { Highlight3Directive } from './directives/highlight3.directive'
+import { Highlight3Directive } from './directives/highlight3.directive';
+import { RendererDirective } from './directives/renderer.directive';
+
 
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { Highlight3Directive } from './directives/highlight3.directive'
     DirectiveViewComponent,
     Highlight2Directive,
     Highlight3Directive,
+    RendererDirective,
+    
   ],
   imports: [
     BrowserModule,
