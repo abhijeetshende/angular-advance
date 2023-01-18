@@ -16,6 +16,10 @@ import { LifecyclehooksComponent } from './lifecyclehooks/lifecyclehooks.compone
 import { ChildComponent } from './lifecyclehooks/child/child.component';
 import { ContentchildComponent } from './contentchild/contentchild.component';
 import { ContentchildviewComponent } from './contentchild/contentchildview/contentchildview.component';
+import { Highlight1Directive } from './directives/highlight1.directive';
+import { DirectiveViewComponent } from './directive-view/directive-view.component';
+import { Highlight2Directive } from './directives/highlight2.directive';
+import { Highlight3Directive } from './directives/highlight3.directive'
 
 @NgModule({
   declarations: [
@@ -31,7 +35,11 @@ import { ContentchildviewComponent } from './contentchild/contentchildview/conte
     LifecyclehooksComponent,
     ChildComponent,
     ContentchildComponent,
-    ContentchildviewComponent
+    ContentchildviewComponent,
+    Highlight1Directive,
+    DirectiveViewComponent,
+    Highlight2Directive,
+    Highlight3Directive,
   ],
   imports: [
     BrowserModule,

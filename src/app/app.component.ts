@@ -18,5 +18,6 @@ export class AppComponent {
     {'linkname':'ngContent','routerLink':'ngcontent'},
     {'linkname':'LifecycleHooks','routerLink':'lifecyclehooks'},
     {'linkname':'ContentChild','routerLink':'contentChild'},
+    {'linkname':'Directive','routerLink':'directive'},
   ];
 }
