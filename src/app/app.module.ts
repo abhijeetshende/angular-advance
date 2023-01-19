@@ -29,6 +29,9 @@ import { DirectiveinputComponent } from './directiveinput/directiveinput.compone
 import { InputdirectiveDirective } from './directiveinput/inputdirective.directive';
 import { StructuralDirectiveComponent } from './structural-directive/structural-directive.component';
 import { StructraldirectiveDirective } from './structural-directive/structraldirective.directive';
+import { CTopComponent } from './services/c-top/c-top.component';
+import { CTopChild1Component } from './services/c-top/c-top-child1/c-top-child1.component';
+import { CTopChild2Component } from './services/c-top/c-top-child2/c-top-child2.component';
 
 
 @NgModule({
@@ -59,6 +62,9 @@ import { StructraldirectiveDirective } from './structural-directive/structraldir
     InputdirectiveDirective,
     StructuralDirectiveComponent,
     StructraldirectiveDirective,
+    CTopComponent,
+    CTopChild1Component,
+    CTopChild2Component,
     
   ],
   imports: [

@@ -23,6 +23,7 @@ export class AppComponent {
     {'linkname':'hostBinding','routerLink':'hostBinding'},
     {'linkname':'InputToDirective','routerLink':'directiveinput'},
     {'linkname':'structralDirective','routerLink':'structralDirective'},
+    {'linkname':'Services','routerLink':'services'},
     
   ];
 }
