@@ -1,5 +1,8 @@
 <p>c-top-child2 works!</p>
-
+<p>
+  Service added in provider, which means this component will have a seperate
+  instance of service which is not shared to topLevel Component
+</p>
 <div class="form-group">
   <label for=""></label>
   <input
@@ -15,3 +18,19 @@
 <button type="button" name="" id="" class="btn btn-primary" (click)="Add()">
   Add Data Level
 </button>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-6  d-flex flex-row flex-row-reverse">
+      <div class="form-group">
+        <label for=""></label>
+        <input type="text"
+          class="form-control" name="" id=""  placeholder="" [(ngModel)]="dataToParent">
+        </div>
+        <button type="button" name="" id="" class="btn btn-primary" (click)="sendDataToParent()">Emit to parent will not work</button>
+
+    </div>
+  </div>
+</div>

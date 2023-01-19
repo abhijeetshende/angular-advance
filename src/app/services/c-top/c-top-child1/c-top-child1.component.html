@@ -15,3 +15,18 @@
 <button type="button" name="" id="" class="btn btn-primary" (click)="Add()">
   Add Data Level
 </button>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <div class="form-group">
+        <label for=""></label>
+        <input type="text"
+          class="form-control" name="" id=""  placeholder="" [(ngModel)]="dataToParent">
+      </div>
+
+      <button type="button" name="" id="" class="btn btn-primary" (click)="sendDataToParent()">Emit to Parent will work</button>
+    </div>
+  </div>
+</div>

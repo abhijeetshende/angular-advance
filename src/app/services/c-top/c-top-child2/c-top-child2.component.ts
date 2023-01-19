@@ -8,10 +8,16 @@ import { SamelevelService } from '../service/samelevel.service';
   providers:[SamelevelService]   /// this creates a new instance of service and all the child component will be sharing this service
 })
 export class CTopChild2Component {
+  dataToParent:string='';
   constructor(private sameleveService: SamelevelService) {}
   child2LevelString: string = '';
   Add() {
     this.sameleveService.addData(this.child2LevelString);
     this.sameleveService.getData();
+  }
+  sendDataToParent(){
+    console.log(this.dataToParent);
+    
+    this.sameleveService.emitShareData(this.dataToParent);
   }
 }
